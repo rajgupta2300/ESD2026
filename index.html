@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESD 12-Week MCQ Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Education for Sustainable Development</h1>
+            <p>12-Week Interactive MCQ Practice</p>
+            <div class="controls">
+                <select id="modeSelect" aria-label="Select Practice Mode">
+                    <option value="mixed">Mixed Exam Mode (All 120 Qs, 1-by-1)</option>
+                    <option value="1">Weekly Mode: Start from Week 1</option>
+                    <option value="2">Weekly Mode: Start from Week 2</option>
+                    <option value="3">Weekly Mode: Start from Week 3</option>
+                    <option value="4">Weekly Mode: Start from Week 4</option>
+                    <option value="5">Weekly Mode: Start from Week 5</option>
+                    <option value="6">Weekly Mode: Start from Week 6</option>
+                    <option value="7">Weekly Mode: Start from Week 7</option>
+                    <option value="8">Weekly Mode: Start from Week 8</option>
+                    <option value="9">Weekly Mode: Start from Week 9</option>
+                    <option value="10">Weekly Mode: Start from Week 10</option>
+                    <option value="11">Weekly Mode: Start from Week 11</option>
+                    <option value="12">Weekly Mode: Start from Week 12</option>
+                </select>
+                <button id="startBtn">Start Practice</button>
+            </div>
+        </header>
+
+        <main id="quizArea" class="hidden">
+            <div class="quiz-header">
+                <h2 id="progressTitle" style="color: white; font-weight: 600; font-size: 1.5rem;">Week 1</h2>
+                <div class="summary-info">
+                    <span class="score-badge">Score: <span id="currentScore">0</span> <span id="totalScoreWrapper">/ <span id="totalQuestions">10</span></span></span>
+                </div>
+            </div>
+            
+            <div id="contentArea">
+                <!-- Dynamically injected questions will appear here depending on the mode -->
+            </div>
+
+            <div class="actions">
+                <button id="mainActionBtn" class="hidden"></button>
+            </div>
+        </main>
+
+        <div id="resultArea" class="hidden glass-card">
+            <h2>Course Practice Complete!</h2>
+            <p class="final-score">You scored <span id="finalScore">0</span> out of <span id="finalTotal">0</span></p>
+            <button id="restartBtn">Return to Main Menu</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
