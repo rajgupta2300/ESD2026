@@ -1,4 +1,4 @@
-const weekData = [
+const weekData2026 = [
   {
     "week": 1,
     "questions": [

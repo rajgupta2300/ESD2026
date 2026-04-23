@@ -1,4 +1,5 @@
 // DOM Elements
+const yearSelect = document.getElementById('yearSelect');
 const modeSelect = document.getElementById('modeSelect');
 const startBtn = document.getElementById('startBtn');
 const quizArea = document.getElementById('quizArea');
@@ -28,8 +29,8 @@ let currentWeekIdx = 1;
 
 
 function init() {
-    if (typeof weekData === 'undefined') {
-        alert("Questions data did not load properly.");
+    if (typeof weekData2026 === 'undefined' || typeof weekData2022 === 'undefined') {
+        console.warn("Some questions data did not load properly.");
     }
     startBtn.addEventListener('click', startPractice);
     restartBtn.addEventListener('click', resetQuiz);
@@ -45,7 +46,11 @@ function shuffleArray(array) {
 }
 
 function startPractice() {
-    const selection = modeSelect.value;
+    const yearSelection = yearSelect.value;
+    const modeSelection = modeSelect.value;
+    
+    // Dynamically pick dataset
+    const currentData = (yearSelection === '2022') ? weekData2022 : weekData2026;
     
     document.querySelector('header').classList.add('hidden');
     resultArea.classList.add('hidden');
@@ -54,12 +59,12 @@ function startPractice() {
     score = 0;
     currentScoreEl.textContent = score;
 
-    if (selection === 'mixed') {
+    if (modeSelection === 'mixed') {
         mode = 'mixed';
         
-        // Prepare 120 shuffled questions
+        // Prepare shuffled questions
         mixedQuestions = [];
-        weekData.forEach(week => {
+        currentData.forEach(week => {
             mixedQuestions = mixedQuestions.concat(week.questions);
         });
         mixedQuestions = shuffleArray(mixedQuestions);
@@ -67,21 +72,21 @@ function startPractice() {
 
         totalScoreWrapper.classList.add('hidden'); // Simplified cumulative score
         
-        setupActionBtn('mixed');
-        loadMixedBatch();
+        setupActionBtn('mixed', currentData);
+        loadMixedBatch(currentData);
         
     } else {
         mode = 'weekly';
-        currentWeekIdx = parseInt(selection);
+        currentWeekIdx = parseInt(modeSelection);
         
         totalScoreWrapper.classList.add('hidden');
         
-        setupActionBtn('weekly');
-        loadWeek(currentWeekIdx);
+        setupActionBtn('weekly', currentData);
+        loadWeek(currentWeekIdx, currentData);
     }
 }
 
-function setupActionBtn(activeMode) {
+function setupActionBtn(activeMode, currentData) {
     // Clone and replace button to clear old event listeners
     const newBtn = mainActionBtn.cloneNode(true);
     mainActionBtn.parentNode.replaceChild(newBtn, mainActionBtn);
@@ -92,12 +97,12 @@ function setupActionBtn(activeMode) {
     if (activeMode === 'mixed') {
         window.mainActionBtn.addEventListener('click', () => {
             mixedCurrentPage++;
-            loadMixedBatch();
+            loadMixedBatch(currentData);
         });
     } else {
         window.mainActionBtn.addEventListener('click', () => {
             currentWeekIdx++;
-            loadWeek(currentWeekIdx);
+            loadWeek(currentWeekIdx, currentData);
         });
     }
 }
@@ -105,7 +110,7 @@ function setupActionBtn(activeMode) {
 // ---------------------------
 // MIXED MODE LOGIC (10 by 10)
 // ---------------------------
-function loadMixedBatch() {
+function loadMixedBatch(currentData) {
     const startIndex = mixedCurrentPage * 10;
     if (startIndex >= mixedQuestions.length) {
         endQuiz();
@@ -134,13 +139,13 @@ function loadMixedBatch() {
 // ---------------------------
 // WEEKLY MODE LOGIC (10 by 10)
 // ---------------------------
-function loadWeek(weekNum) {
-    if (weekNum > 12) {
+function loadWeek(weekNum, currentData) {
+    if (weekNum > currentData.length) {
         endQuiz();
         return;
     }
 
-    const weekInfo = weekData.find(w => w.week === weekNum);
+    const weekInfo = currentData.find(w => w.week === weekNum);
     if (!weekInfo || weekInfo.questions.length === 0) {
         contentArea.innerHTML = `<p>No questions found for Week ${weekNum}. Skipping...</p>`;
         window.mainActionBtn.textContent = 'Proceed to Next Week \u2192';
@@ -183,7 +188,7 @@ function createQuestionDOM(q, prefixTitle = '') {
     feedbackDiv.className = 'feedback-box hidden';
 
     const correctOptionObj = q.options.find(o => o.id === q.answer_id) || q.options[0];
-    const correctText = correctOptionObj.text;
+    const correctText = q.answer || (correctOptionObj ? correctOptionObj.text : "");
 
     const shuffledOptions = shuffleArray(q.options);
 
