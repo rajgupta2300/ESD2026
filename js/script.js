@@ -14,6 +14,8 @@ const restartBtn = document.getElementById('restartBtn');
 const finalScoreEl = document.getElementById('finalScore');
 const finalTotalEl = document.getElementById('finalTotal');
 const backBtn = document.getElementById('backBtn');
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+const scrollBottomBtn = document.getElementById('scrollBottomBtn');
 
 // Global State
 let mode = 'mixed'; // 'mixed' or 'weekly'
@@ -36,6 +38,18 @@ function init() {
     startBtn.addEventListener('click', startPractice);
     restartBtn.addEventListener('click', resetQuiz);
     if(backBtn) backBtn.addEventListener('click', resetQuiz);
+    
+    if(scrollTopBtn) {
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+    
+    if(scrollBottomBtn) {
+        scrollBottomBtn.addEventListener('click', () => {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        });
+    }
 }
 
 function shuffleArray(array) {
