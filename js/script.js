@@ -9,10 +9,11 @@ const progressTitle = document.getElementById('progressTitle');
 const currentScoreEl = document.getElementById('currentScore');
 const totalScoreWrapper = document.getElementById('totalScoreWrapper');
 const totalQuestionsEl = document.getElementById('totalQuestions');
-const mainActionBtn = document.getElementById('mainActionBtn');
+let currentActionBtn = document.getElementById('mainActionBtn');
 const restartBtn = document.getElementById('restartBtn');
 const finalScoreEl = document.getElementById('finalScore');
 const finalTotalEl = document.getElementById('finalTotal');
+const backBtn = document.getElementById('backBtn');
 
 // Global State
 let mode = 'mixed'; // 'mixed' or 'weekly'
@@ -29,11 +30,12 @@ let currentWeekIdx = 1;
 
 
 function init() {
-    if (typeof weekData2026 === 'undefined' || typeof weekData2022 === 'undefined') {
+    if (typeof weekData2026 === 'undefined' || typeof weekData2022 === 'undefined' || typeof weekData2025 === 'undefined') {
         console.warn("Some questions data did not load properly.");
     }
     startBtn.addEventListener('click', startPractice);
     restartBtn.addEventListener('click', resetQuiz);
+    if(backBtn) backBtn.addEventListener('click', resetQuiz);
 }
 
 function shuffleArray(array) {
@@ -50,7 +52,9 @@ function startPractice() {
     const modeSelection = modeSelect.value;
     
     // Dynamically pick dataset
-    const currentData = (yearSelection === '2022') ? weekData2022 : weekData2026;
+    let currentData = weekData2026;
+    if (yearSelection === '2022') currentData = weekData2022;
+    if (yearSelection === '2025') currentData = weekData2025;
     
     document.querySelector('header').classList.add('hidden');
     resultArea.classList.add('hidden');
@@ -88,19 +92,18 @@ function startPractice() {
 
 function setupActionBtn(activeMode, currentData) {
     // Clone and replace button to clear old event listeners
-    const newBtn = mainActionBtn.cloneNode(true);
-    mainActionBtn.parentNode.replaceChild(newBtn, mainActionBtn);
-    // update reference
-    window.mainActionBtn = document.getElementById('mainActionBtn');
-    window.mainActionBtn.classList.add('hidden');
+    const newBtn = currentActionBtn.cloneNode(true);
+    currentActionBtn.parentNode.replaceChild(newBtn, currentActionBtn);
+    currentActionBtn = newBtn;
+    currentActionBtn.classList.add('hidden');
 
     if (activeMode === 'mixed') {
-        window.mainActionBtn.addEventListener('click', () => {
+        currentActionBtn.addEventListener('click', () => {
             mixedCurrentPage++;
             loadMixedBatch(currentData);
         });
     } else {
-        window.mainActionBtn.addEventListener('click', () => {
+        currentActionBtn.addEventListener('click', () => {
             currentWeekIdx++;
             loadWeek(currentWeekIdx, currentData);
         });
@@ -126,7 +129,7 @@ function loadMixedBatch(currentData) {
     progressTitle.textContent = `Mixed Exam: Questions ${startIndex + 1} to ${endIndex} of ${mixedQuestions.length}`;
     
     contentArea.innerHTML = '';
-    window.mainActionBtn.classList.add('hidden');
+    currentActionBtn.classList.add('hidden');
 
     batch.forEach((q, index) => {
         const globalIndex = startIndex + index + 1;
@@ -148,8 +151,8 @@ function loadWeek(weekNum, currentData) {
     const weekInfo = currentData.find(w => w.week === weekNum);
     if (!weekInfo || weekInfo.questions.length === 0) {
         contentArea.innerHTML = `<p>No questions found for Week ${weekNum}. Skipping...</p>`;
-        window.mainActionBtn.textContent = 'Proceed to Next Week \u2192';
-        window.mainActionBtn.classList.remove('hidden');
+        currentActionBtn.textContent = 'Proceed to Next Week \u2192';
+        currentActionBtn.classList.remove('hidden');
         return;
     }
 
@@ -159,7 +162,7 @@ function loadWeek(weekNum, currentData) {
     progressTitle.textContent = `Practicing: Week ${weekNum}`;
     
     contentArea.innerHTML = '';
-    window.mainActionBtn.classList.add('hidden');
+    currentActionBtn.classList.add('hidden');
 
     weekInfo.questions.forEach((q, index) => {
         const qContainer = createQuestionDOM(q, `Q${index + 1}. `);
@@ -246,16 +249,16 @@ function handleAnswerSelect(selectedEl, optionsGrid, feedbackDiv, isCorrect, cor
     // Track progression handling for 10-item blocks
     questionsAnsweredInBlock++;
     if(questionsAnsweredInBlock >= currentBlockTotalQ) {
-        window.mainActionBtn.classList.remove('hidden');
+        currentActionBtn.classList.remove('hidden');
         
         if (mode === 'mixed') {
             const isLastPage = ((mixedCurrentPage + 1) * 10) >= mixedQuestions.length;
-            window.mainActionBtn.textContent = isLastPage ? 'Finish Practice \u2192' : 'Load Next 10 Questions \u2192';
+            currentActionBtn.textContent = isLastPage ? 'Finish Practice \u2192' : 'Load Next 10 Questions \u2192';
         } else {
             if (currentWeekIdx >= 12) {
-                window.mainActionBtn.textContent = 'Finish Course \u2192';
+                currentActionBtn.textContent = 'Finish Course \u2192';
             } else {
-                window.mainActionBtn.textContent = `Proceed to Week ${currentWeekIdx + 1} \u2192`;
+                currentActionBtn.textContent = `Proceed to Week ${currentWeekIdx + 1} \u2192`;
             }
         }
     }
@@ -275,6 +278,7 @@ function endQuiz() {
 function resetQuiz() {
     document.querySelector('header').classList.remove('hidden');
     resultArea.classList.add('hidden');
+    quizArea.classList.add('hidden');
 }
 
 document.addEventListener('DOMContentLoaded', init);

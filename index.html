@@ -20,6 +20,7 @@
             <div class="controls">
                 <select id="yearSelect" aria-label="Select Year">
                     <option value="2026">Year 2026</option>
+                    <option value="2025">Year 2025</option>
                     <option value="2022">Year 2022</option>
                 </select>
                 <select id="modeSelect" aria-label="Select Practice Mode">
@@ -43,7 +44,10 @@
 
         <main id="quizArea" class="hidden">
             <div class="quiz-header">
-                <h2 id="progressTitle" style="color: white; font-weight: 600; font-size: 1.5rem;">Week 1</h2>
+                <div class="header-left">
+                    <button id="backBtn" class="back-btn">&#8592; Back</button>
+                    <h2 id="progressTitle" style="color: white; font-weight: 600; font-size: 1.5rem; margin-left: 1rem;">Week 1</h2>
+                </div>
                 <div class="summary-info">
                     <span class="score-badge">Score: <span id="currentScore">0</span> <span id="totalScoreWrapper">/ <span id="totalQuestions">10</span></span></span>
                 </div>
@@ -66,6 +70,7 @@
     </div>
 
     <script src="js/questions.js"></script>
+    <script src="js/questions_2025.js"></script>
     <script src="js/questions_2022.js"></script>
     <script src="js/script.js"></script>
 </body>
