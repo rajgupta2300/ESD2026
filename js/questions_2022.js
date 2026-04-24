@@ -3,11 +3,19 @@ const weekData2022 = [
     "week": 1,
     "questions": [
       {
-        "question": "The Sustainable development goals/Global goals were adopted by UNESCO in the Year- Age",
+        "question": "The Sustainable development goals / Global goals were adopted by UNESCO in the Year \u2014\u2014\u2014?",
         "options": [
           {
+            "id": "A",
+            "text": "2003"
+          },
+          {
             "id": "B",
-            "text": "1987 eo"
+            "text": "1987"
+          },
+          {
+            "id": "C",
+            "text": "2018"
           },
           {
             "id": "D",
@@ -18,11 +26,11 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Brundtland Commission report, explored the causes of attempted to the between social -, and environmental problems,",
+        "question": "Brundtland Commission report, explored the causes of environmental degradation, attempted to understand the interconnections between social \u2014\u2014\u2014\u2014, \u2014\u2014\u2014\u2014, and environmental problems.",
         "options": [
           {
             "id": "A",
-            "text": "reforms, ad poli"
+            "text": "reforms, policy"
           },
           {
             "id": "B",
@@ -34,14 +42,14 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "equity, economic growth No, Score: the 0 answer is incorrect."
+            "text": "equity, economic growth"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "Eradicating poverty in all its forms remains one of the greatest challenges facing \u2014",
+        "question": "Eradicating poverty in all its forms remains one of the greatest challenges facing \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -49,7 +57,7 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Ecoloy ay"
+            "text": "Ecology"
           },
           {
             "id": "C",
@@ -64,7 +72,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The Government of India has the world\u2019s largest employment guarantee under ~ \u2014\u2014- scheme.",
+        "question": "The Government of India has the world's largest employment guarantee under \u2014\u2014\u2014\u2014 scheme.",
         "options": [
           {
             "id": "A",
@@ -87,11 +95,11 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The Global Hunger Index 2020 ranks India at ~ - out of 107 countries",
+        "question": "The Global Hunger Index 2020 ranks India at \u2014\u2014\u2014\u2014 out of 107 countries.",
         "options": [
           {
             "id": "A",
-            "text": "8B"
+            "text": "88"
           },
           {
             "id": "B",
@@ -110,7 +118,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Malnourished children have a higher risk of - \u2014- from common childhood illnesses such as diarrhea, pneumonia, and malaria. 4 point",
+        "question": "Malnourished children have a higher risk of \u2014\u2014\u2014\u2014 from common childhood illnesses such as diarrhea, pneumonia, and malaria.",
         "options": [
           {
             "id": "A",
@@ -133,7 +141,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Education liberates the intellect, unlocks the and is for",
+        "question": "Education liberates the intellect, unlocks the imagination and is fundamental for \u2014\u2014\u2014\u2014 self-respect.",
         "options": [
           {
             "id": "A",
@@ -156,7 +164,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "In. June 1992, the Earth Summit was held in-\u2014\u2014",
+        "question": "In June 1992, the Earth Summit was held in \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -164,7 +172,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Rio de Janeiro, Brazil GC. New Delhi, India"
+            "text": "Rio de Janeiro, Brazil"
+          },
+          {
+            "id": "C",
+            "text": "New Delhi, India"
           },
           {
             "id": "D",
@@ -175,7 +187,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "For achieving inclusive society and quality education for all \u2014 is one of the most powerful and proven vehicles for sustainable development.",
+        "question": "For achieving inclusive society and quality education for all \u2014\u2014\u2014\u2014 is one of the most powerful and proven vehicles for sustainable development.",
         "options": [
           {
             "id": "A",
@@ -191,14 +203,14 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "education No, Score: the 0 answer is incorrect."
+            "text": "education"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "Sustainable development was the solution to the problems of \u2014",
+        "question": "Sustainable development was the solution to the problems of \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -206,7 +218,7 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "socic instability"
+            "text": "social instability"
           },
           {
             "id": "C",
@@ -226,11 +238,15 @@ const weekData2022 = [
     "week": 2,
     "questions": [
       {
-        "question": "SDG 4.7 advocates: 7",
+        "question": "SDG 4.7 advocates \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "Ensure good health & wellbeing B, Promote lifelong emplayment opportunities for all."
+            "text": "Ensure good health & wellbeing"
+          },
+          {
+            "id": "B",
+            "text": "Promote lifelong employment opportunities for all"
           },
           {
             "id": "C",
@@ -245,15 +261,19 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "ESD primarily empowers learners to take informed decision and action f",
+        "question": "ESD primarily empowers learners to take informed decision and responsible action for \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "environmental integrity, economic viability, and sustainable society B, economic strategy, multicultural society and political sustainability"
+            "text": "environmental integrity, economic viability, and sustainable society"
+          },
+          {
+            "id": "B",
+            "text": "economic strategy, multicultural society and political sustainability"
           },
           {
             "id": "C",
-            "text": "lifelong learning, skill and"
+            "text": "lifelong learning, skill development, and sustainable employment"
           },
           {
             "id": "D",
@@ -268,7 +288,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Quality education for sustainable development has the potential to support --",
+        "question": "Quality education for sustainable development has the potential to support \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -291,7 +311,30 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "\u2018Declaration on the Right to Di Y was in by",
+        "question": "\u2014\u2014\u2014\u2014 harmonize the tensions between economic, social and environmental development.",
+        "options": [
+          {
+            "id": "A",
+            "text": "environment"
+          },
+          {
+            "id": "B",
+            "text": "society"
+          },
+          {
+            "id": "C",
+            "text": "economy"
+          },
+          {
+            "id": "D",
+            "text": "education"
+          }
+        ],
+        "answer_id": "D",
+        "explanation": ""
+      },
+      {
+        "question": "'Declaration on the Right to Development' was implemented in \u2014\u2014\u2014\u2014 by \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -299,7 +342,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "1987, Member States of the United Kingdom GC. 1986, Member States of the United Nation"
+            "text": "1987, Member States of the United Kingdom"
+          },
+          {
+            "id": "C",
+            "text": "1986, Member States of the United Nation"
           },
           {
             "id": "D",
@@ -310,7 +357,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "accommodates the evolving nature of the concept of sustainability.",
+        "question": "\u2014\u2014\u2014\u2014 accommodates the evolving nature of the concept of sustainability.",
         "options": [
           {
             "id": "A",
@@ -333,7 +380,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "\u2018Gender Equality\u2019 is associated with 4 point",
+        "question": "'Gender Equality' is associated with",
         "options": [
           {
             "id": "A",
@@ -341,11 +388,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "promoting girls\u2019 education"
+            "text": "promoting girls' education"
           },
           {
             "id": "C",
-            "text": "both option A&B"
+            "text": "both option A & B"
           },
           {
             "id": "D",
@@ -356,15 +403,15 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Oralia Ruano Lima was associated with-\u2014~ 4 point",
+        "question": "Oralia Ruano Lima was associated with \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "Anall-female entrepreneurship project as a beekeeper"
+            "text": "An all-female entrepreneurship project as a beekeeper"
           },
           {
             "id": "B",
-            "text": "An all-female entrep p project as a"
+            "text": "An all-female entrepreneurship project as a shopkeeper"
           },
           {
             "id": "C",
@@ -379,7 +426,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The Universal Declaration proclaimed the inalienable rights of every human being regardless of -",
+        "question": "The Universal Declaration proclaimed the inalienable rights of every human being regardless of \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -402,11 +449,11 @@ const weekData2022 = [
             "text": "All above"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "E",
         "explanation": ""
       },
       {
-        "question": "\u2014 \u2014 uses a variety of that promote participatory learning and higher-order thinking skills.",
+        "question": "\u2014\u2014\u2014\u2014 uses a variety of pedagogical techniques that promote participatory learning and higher-order thinking skills.",
         "options": [
           {
             "id": "A",
@@ -431,9 +478,14 @@ const weekData2022 = [
         ],
         "answer_id": "E",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "questions": [
       {
-        "question": "Global citizenship is the umbrella term for-\u2014",
+        "question": "Global citizenship is the umbrella term for \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -458,18 +510,13 @@ const weekData2022 = [
         ],
         "answer_id": "E",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 3,
-    "questions": [
+      },
       {
-        "question": "Global citizenship is all about encouraging young people to develop the",
+        "question": "Global citizenship is all about encouraging young people to develop the \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "knowledge, skills and values:"
+            "text": "knowledge, skills and values"
           },
           {
             "id": "B",
@@ -485,14 +532,14 @@ const weekData2022 = [
           },
           {
             "id": "E",
-            "text": "all the above \u2018Score:"
+            "text": "all the above"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "Global citizen not apply ~",
+        "question": "Global citizen do not apply \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -515,7 +562,34 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "GCED is based on -- domains of learning - cognitive, socio-emotional and behavioral.",
+        "question": "Global citizens passionately support \u2014\u2014\u2014\u2014 and sustainable practices.",
+        "options": [
+          {
+            "id": "A",
+            "text": "local-global connection"
+          },
+          {
+            "id": "B",
+            "text": "economic transactions"
+          },
+          {
+            "id": "C",
+            "text": "political agendas"
+          },
+          {
+            "id": "D",
+            "text": "social justice"
+          },
+          {
+            "id": "E",
+            "text": "people's views and value"
+          }
+        ],
+        "answer_id": "D",
+        "explanation": ""
+      },
+      {
+        "question": "GCED is based on \u2014\u2014\u2014\u2014 domains of learning \u2013 cognitive, socio-emotional and behavioral.",
         "options": [
           {
             "id": "A",
@@ -538,7 +612,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "MGIEP a UNESCO's first Category 1 education-related institute in the Asia-Pacific region is sit",
+        "question": "MGIEP a UNESCO's first Category 1 education-related institute in the Asia-Pacific region is situated in \u2014\u2014\u2014\u2014 country.",
         "options": [
           {
             "id": "A",
@@ -565,7 +639,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Heritage is a vital driver of Sustainability O points",
+        "question": "\u2014\u2014\u2014\u2014 Heritage is a vital driver of Sustainability.",
         "options": [
           {
             "id": "A",
@@ -577,18 +651,18 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Eneray"
+            "text": "Energy"
           },
           {
             "id": "D",
-            "text": "Heritage No, Score: the 0 answer is incorrect."
+            "text": "Heritage"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "The transformative power of culture for & is as a key enabler for Sustainable Development.",
+        "question": "The transformative power of culture for \u2014\u2014\u2014\u2014&\u2014\u2014\u2014\u2014 is increasingly recognized as a key enabler for Sustainable Development.",
         "options": [
           {
             "id": "A",
@@ -611,7 +685,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Cultural Heritage promotes-- -- spiritual thoughts",
+        "question": "Cultural Heritage promotes \u2014\u2014\u2014\u2014 spiritual thoughts.",
         "options": [
           {
             "id": "A",
@@ -634,8 +708,12 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "\u2014 calls for strengthening efforts to protect and safeguard the world's cultural and natural heritage A Target 11.4",
+        "question": "\u2014\u2014\u2014\u2014 calls for strengthening efforts to protect and safeguard the world's cultural and natural heritage.",
         "options": [
+          {
+            "id": "A",
+            "text": "Target 11.4"
+          },
           {
             "id": "B",
             "text": "Target 12.4"
@@ -651,9 +729,14 @@ const weekData2022 = [
         ],
         "answer_id": "A",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "questions": [
       {
-        "question": "_Individua''s ability to create good relationships, relate well with others and adapt to any social situation is called",
+        "question": "Individual's ability to create good relationships, relate well with others and adapt to any social situation is called \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -661,7 +744,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Physical health G. Social health"
+            "text": "Physical health"
+          },
+          {
+            "id": "C",
+            "text": "Social health"
           },
           {
             "id": "D",
@@ -669,18 +756,14 @@ const weekData2022 = [
           },
           {
             "id": "E",
-            "text": "Ecological health seed Accapted Anewere:"
-          },
-          {
-            "id": "C",
-            "text": "Social health"
+            "text": "Ecological health"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "C",
         "explanation": ""
       },
       {
-        "question": "a personal to jing and taking ibility for your own health, through preventative (proactive) means.",
+        "question": "\u2014\u2014\u2014\u2014 is a personal commitment to maintaining and taking responsibility for your own health, through preventative (proactive) means.",
         "options": [
           {
             "id": "A",
@@ -701,14 +784,9 @@ const weekData2022 = [
         ],
         "answer_id": "C",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 4,
-    "questions": [
+      },
       {
-        "question": "SDG3 aspires to ensure... covey 2030.",
+        "question": "SDG 3 aspires to ensure \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 by 2030.",
         "options": [
           {
             "id": "A",
@@ -735,7 +813,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The right amount of keeps us fit and live a long, stress free and healthy life",
+        "question": "The right amount of \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 engagement keeps us fit and live a long, stress free and healthy life.",
         "options": [
           {
             "id": "A",
@@ -758,7 +836,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "have crucial roles in building healthy and health creating communities, towns, and cities",
+        "question": "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 have crucial roles in building healthy and health creating communities, towns, and cities.",
         "options": [
           {
             "id": "A",
@@ -781,11 +859,11 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Mental health is ~ --- in which the individual realizes his or her own abilities",
+        "question": "Mental health is \u2014\u2014\u2014\u2014 in which the individual realizes his or her own abilities.",
         "options": [
           {
             "id": "A",
-            "text": "astate of well-being"
+            "text": "a state of well-being"
           },
           {
             "id": "B",
@@ -793,18 +871,45 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "initial genetically determined human motor capacity"
+            "text": "Initial genetically determined human motor capacity"
           },
           {
             "id": "D",
             "text": "a matter of public health"
           }
         ],
+        "answer_id": "A",
+        "explanation": ""
+      },
+      {
+        "question": "\u2014\u2014\u2014\u2014 is Non-Communicable disease/s.",
+        "options": [
+          {
+            "id": "A",
+            "text": "CoVid-19"
+          },
+          {
+            "id": "B",
+            "text": "Malaria"
+          },
+          {
+            "id": "C",
+            "text": "Diabetes"
+          },
+          {
+            "id": "D",
+            "text": "HIV"
+          },
+          {
+            "id": "E",
+            "text": "All the above"
+          }
+        ],
         "answer_id": "C",
         "explanation": ""
       },
       {
-        "question": "Dimensions of health are ...",
+        "question": "Dimensions of health are \u2026\u2026\u2026\u2026\u2026\u2026?",
         "options": [
           {
             "id": "A",
@@ -827,7 +932,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Nutritional requil wary according to",
+        "question": "Nutritional requirements vary according to \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -835,7 +940,7 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "energy requirements and depend on body mass,"
+            "text": "energy requirements and depend on body mass"
           },
           {
             "id": "C",
@@ -843,7 +948,7 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "the environment in which the work is performed."
+            "text": "the environment in which the work is performed"
           },
           {
             "id": "E",
@@ -854,7 +959,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Human health and survival are understoad to be completely dependent on the presence of intact.",
+        "question": "Human health and survival are understood to be completely dependent on the presence of intact \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -866,7 +971,7 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "both A&B"
+            "text": "both A & B"
           },
           {
             "id": "D",
@@ -875,9 +980,14 @@ const weekData2022 = [
         ],
         "answer_id": "C",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "questions": [
       {
-        "question": "is/are being used as health care technology.",
+        "question": "\u2014\u2014\u2014\u2014 s/are being used as health care technology.",
         "options": [
           {
             "id": "A",
@@ -904,11 +1014,11 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Health care grids are........",
+        "question": "Health care grids are \u2026\u2026\u2026",
         "options": [
           {
             "id": "A",
-            "text": "Medical Data storage and availability on demand."
+            "text": "Medical Data storage and availability on demand"
           },
           {
             "id": "B",
@@ -927,11 +1037,15 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Sustainable Quality Improvement (Sus-Q)) is a practical framework that extends the scope of Q! to include... A, Ecological sustainability",
+        "question": "Sustainable Quality Improvement (Sus-QI) is a practical framework that extends the scope of QI to include \u2014\u2014\u2014\u2014.",
         "options": [
           {
+            "id": "A",
+            "text": "Ecological sustainability"
+          },
+          {
             "id": "B",
-            "text": "Along-term socio-economic perspective,"
+            "text": "A long-term socio-economic perspective"
           },
           {
             "id": "C",
@@ -943,19 +1057,14 @@ const weekData2022 = [
           },
           {
             "id": "E",
-            "text": "OnlyA&B"
+            "text": "Only A & B"
           }
         ],
         "answer_id": "E",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 5,
-    "questions": [
+      },
       {
-        "question": "ESDisa... ..-- process. 4 point",
+        "question": "ESD is a \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 process.",
         "options": [
           {
             "id": "A",
@@ -967,26 +1076,30 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Technical learning D, Unsustainable learning"
+            "text": "Technical learning"
+          },
+          {
+            "id": "D",
+            "text": "Unsustainable learning"
           }
         ],
         "answer_id": "B",
         "explanation": ""
       },
       {
-        "question": "is a tool designed to comprehensively measure and track hunger at global, regional, and national levels. 4 point",
+        "question": "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 is a tool designed to comprehensively measure and track hunger at global, regional, and national levels.",
         "options": [
           {
             "id": "A",
-            "text": "The World Hunger Index(WHI)"
+            "text": "The World Hunger Index (WHI)"
           },
           {
             "id": "B",
-            "text": "Stock Exchange index (SEI)"
+            "text": "Stock Exchange Index (SEI)"
           },
           {
             "id": "C",
-            "text": "Non-Clustered Index(NCl)"
+            "text": "Non-Clustered Index (NCI)"
           },
           {
             "id": "D",
@@ -997,7 +1110,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Food insecurity occurs when... 4 point",
+        "question": "Food insecurity occurs when \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1009,7 +1122,7 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Unavailability of food or inadequate resources to avail food."
+            "text": "Unavailability of food or inadequate resources to avail food"
           },
           {
             "id": "D",
@@ -1020,22 +1133,30 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "During Covid-19 pandemic ere 4 point A, Anganwadi center B, Healthcare system",
+        "question": "During Covid-19 pandemic \u2014\u2014\u2014\u2014 were overburdened.",
         "options": [
+          {
+            "id": "A",
+            "text": "Anganwadi center"
+          },
+          {
+            "id": "B",
+            "text": "Healthcare system"
+          },
           {
             "id": "C",
             "text": "Transportation"
           },
           {
             "id": "D",
-            "text": "Schoo! and college"
+            "text": "School and college"
           }
         ],
         "answer_id": "B",
         "explanation": ""
       },
       {
-        "question": "is not a Human Capital.",
+        "question": "\u2014\u2014\u2014\u2014 is not a Human Capital.",
         "options": [
           {
             "id": "A",
@@ -1051,14 +1172,14 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "Literacy and Education No, Score: the 0 answer is incorrect."
+            "text": "Literacy and Education"
           }
         ],
         "answer_id": "C",
         "explanation": ""
       },
       {
-        "question": "Physical Capital is",
+        "question": "Physical Capital is \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1081,7 +1202,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The immediate nutritional risk that the COVID-19 pandemic created was the increased risk of malnutrition due to the economic impact Ofse",
+        "question": "The immediate nutritional risk that the COVID-19 pandemic created was the increased risk of malnutrition due to the economic impact of \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1102,9 +1223,60 @@ const weekData2022 = [
         ],
         "answer_id": "D",
         "explanation": ""
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "questions": [
+      {
+        "question": "\u2014\u2014\u2014\u2014 is/are closely related to issues of poverty and food insecurity.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Greed health"
+          },
+          {
+            "id": "B",
+            "text": "Disease"
+          },
+          {
+            "id": "C",
+            "text": "Happiness"
+          },
+          {
+            "id": "D",
+            "text": "Zero hunger"
+          }
+        ],
+        "answer_id": "D",
+        "explanation": ""
       },
       {
-        "question": "The most serious a long-term challenge being : faced by Indian z agriculture = is -",
+        "question": "Another form of malnutrition is known as \u2014\u2014\u2014\u2014.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Poverty"
+          },
+          {
+            "id": "B",
+            "text": "Hidden hunger"
+          },
+          {
+            "id": "C",
+            "text": "Lack of health service"
+          },
+          {
+            "id": "D",
+            "text": "Social distance"
+          }
+        ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The most serious long-term challenge being faced by Indian agriculture is \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1116,18 +1288,18 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Using bio-fertilizers"
+            "text": "Using bio-fertilisers"
           },
           {
             "id": "D",
-            "text": "Investment in agricultural research, A a S b."
+            "text": "Investment in agricultural research"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "Mother's education is positively associated with children\u2019s ~",
+        "question": "Mother's education is positively associated with children's \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1143,54 +1315,60 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "All the above p> No, ore: the 0 answer is incorrect."
+            "text": "All the above"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "i ilture practice is not",
+        "question": "Sustainable Agriculture practice is NOT \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "Crop rotation, B, More use of pesticides or fertilizers"
+            "text": "Crop rotation"
+          },
+          {
+            "id": "B",
+            "text": "More use of pesticides or fertilizers"
           },
           {
             "id": "C",
-            "text": "Mixed cropping with pulses,"
+            "text": "Mixed cropping with pulses"
           },
           {
             "id": "D",
-            "text": "Using bio-fertilizers, p> No, Score: the 0 answer is incorrect. \u2018Accepted 8. Answers: Q - ...is/are not the cause of climate change."
-          },
+            "text": "Using bio-fertilizers"
+          }
+        ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "\u2014\u2014\u2014\u2014 is/are NOT the cause of climate change.",
+        "options": [
           {
             "id": "A",
             "text": "Carbon Dioxide (CO2)"
           },
           {
             "id": "B",
-            "text": "Methane (CH,)"
+            "text": "Methane (CH4)"
           },
           {
             "id": "C",
-            "text": "Nitrous Oxide (N20)"
+            "text": "Nitrous Oxide (N2O)"
           },
           {
             "id": "D",
-            "text": "None of the above p> No, Score: the 0 answer is incorrect."
+            "text": "None of the above"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "D",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 6,
-    "questions": [
+      },
       {
-        "question": "One inch of rainfall on a 2,000 sq. ft. room is equal to ..",
+        "question": "One inch of rainfall on a 2,000 sq. ft. room is equal to \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1206,14 +1384,60 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "900 Gallons of Water o@> No, Score: the answer is incorrect."
+            "text": "900 Gallons of Water"
           }
         ],
-        "answer_id": "D",
+        "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": ", is not Critical Systems modelling.",
+        "question": "\u2014\u2014\u2014\u2014 is not a role of the private sector.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Public efforts in improving the country's food security"
+          },
+          {
+            "id": "B",
+            "text": "Weak government and economic institutions"
+          },
+          {
+            "id": "C",
+            "text": "Presence of strong institutions"
+          },
+          {
+            "id": "D",
+            "text": "Complementing the achievement of a higher level of food security"
+          }
+        ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Current cultivation of 'cash crops' such as \u2014\u2014\u2014\u2014 for export purposes contribute to the prevalence of food insecurity and create a strain on the ecosystem.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cotton and coffee"
+          },
+          {
+            "id": "B",
+            "text": "Corn and potatoes"
+          },
+          {
+            "id": "C",
+            "text": "Wheat and grain"
+          },
+          {
+            "id": "D",
+            "text": "Pulses and oilseed"
+          }
+        ],
+        "answer_id": "A",
+        "explanation": ""
+      },
+      {
+        "question": "\u2014\u2014\u2014\u2014 is not Critical Systems modelling.",
         "options": [
           {
             "id": "A",
@@ -1229,14 +1453,19 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "Problem solving A 8 c. No, Score: the 0 answer is incorrect. Accepted 8. Answers: reviews! Announcements About the Cours: Ask a Que: mn Progress: Mentor Week 7 : Assignment 7 The due date for submitting this assignment has passed. Due on 2022-03-16, 23:59 IST. As per our records you have not submitted this assignment."
+            "text": "Problem solving"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "B",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "questions": [
       {
-        "question": "energy provide",
+        "question": "Renewable energy technologies provide \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1259,7 +1488,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "can be considered as a source of Clean and Sustainable Energy.",
+        "question": "\u2014\u2014\u2014\u2014 can be considered as a source of Clean and Sustainable Energy.",
         "options": [
           {
             "id": "A",
@@ -1282,7 +1511,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "agreement is a legally binding international treaty on climate change.",
+        "question": "\u2014\u2014\u2014\u2014 agreement is a legally binding international treaty on climate change.",
         "options": [
           {
             "id": "A",
@@ -1298,14 +1527,14 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "The Paris No, Score: the 0 answer is incorrect."
+            "text": "The Paris"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "does not require large infrastructure investment.",
+        "question": "\u2014\u2014\u2014\u2014 does not require large infrastructure investment.",
         "options": [
           {
             "id": "A",
@@ -1328,7 +1557,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Recently, council has raised the flag of higher education as a key driver for sustainable development and inclusive societies on the first day of the Global Education Meeting 2020.",
+        "question": "Recently, \u2014\u2014\u2014\u2014 council has raised the flag of higher education as a key driver for sustainable development and inclusive societies on the first day of the Global Education Meeting 2020.",
         "options": [
           {
             "id": "A",
@@ -1336,7 +1565,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Higher Education Sustainability Initiative (HESI) G. State Council of Higher Education for Virginia (SCHEV)"
+            "text": "Higher Education Sustainability Initiative (HESI)"
+          },
+          {
+            "id": "C",
+            "text": "State Council of Higher Education for Virginia (SCHEV)"
           },
           {
             "id": "D",
@@ -1347,7 +1580,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "is one of the priority area of ESD 2030 Framework.",
+        "question": "\u2014\u2014\u2014\u2014 is one of the priority area of ESD 2030 Framework.",
         "options": [
           {
             "id": "A",
@@ -1359,18 +1592,18 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Technolegy development"
+            "text": "Technology development"
           },
           {
             "id": "D",
-            "text": "Agro-economy core: 0"
+            "text": "Agro-economy"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "isa form of Green",
+        "question": "\u2014\u2014\u2014\u2014 is a form of Breakthrough Green Technology.",
         "options": [
           {
             "id": "A",
@@ -1378,7 +1611,7 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Zero-carbor/Bio fertilizer"
+            "text": "Zero-carbon/Bio fertilizer"
           },
           {
             "id": "C",
@@ -1390,14 +1623,14 @@ const weekData2022 = [
           },
           {
             "id": "E",
-            "text": "Heavy electrical business."
+            "text": "Heavy electrical business"
           }
         ],
         "answer_id": "B",
         "explanation": ""
       },
       {
-        "question": "is a clean energy & climate related research.",
+        "question": "\u2014\u2014\u2014\u2014 is a clean energy & climate related research.",
         "options": [
           {
             "id": "A",
@@ -1422,14 +1655,9 @@ const weekData2022 = [
         ],
         "answer_id": "C",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 7,
-    "questions": [
+      },
       {
-        "question": "Hydrogen for clean energy is produced mainly from. processes.",
+        "question": "Hydrogen for clean energy is produced mainly from \u2014\u2014\u2014\u2014 processes.",
         "options": [
           {
             "id": "A",
@@ -1456,7 +1684,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "of the energy ecanomy is critical for mitigating climate change.",
+        "question": "\u2014\u2014\u2014\u2014 of the energy economy is critical for mitigating climate change.",
         "options": [
           {
             "id": "A",
@@ -1481,21 +1709,203 @@ const weekData2022 = [
         ],
         "answer_id": "C",
         "explanation": ""
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "questions": [
+      {
+        "question": "According to Frame Model \u2014\u2014\u2014\u2014 are relevant for developing sustainability competencies.",
+        "options": [
+          {
+            "id": "A",
+            "text": "cognitive & technological goals"
+          },
+          {
+            "id": "B",
+            "text": "behavioral & emotional traits"
+          },
+          {
+            "id": "C",
+            "text": "cognitive, motivational, & behavioral goals"
+          },
+          {
+            "id": "D",
+            "text": "neuro-physical attributes"
+          }
+        ],
+        "answer_id": "C",
+        "explanation": ""
       },
       {
-        "question": ": Assignment 8 date for submitting this assignment has passed. Due on 2022-03-23, 23:59 IST. records you have not submitted this assignment. to Frame Model- are relevant for developing sustainability competencies. cognitive & technological goals behavioral & emotional traits cognitive, motivational, & behavioral goals neuro-physical attributes answer is incorrect. 0 Answers: motivational, & behavioral goals is a policy support mechanisms of Okayama Project. Networking/partnership Outsourcing Techno savvy people Financial allocation answer is incorrect. 0 Answers: aims to empower learners to question and change their ways of seeing and thinking about the world, in orderto their understanding. Experiential Learning Peer-to- Peer Learning Individualized Learning Transformative learning answer is incorrect. 0 Answers: learning pedagogy sees students as autonomous learners and emphasizes the active development of knowledge. Curriculum- centered Teacher \u2014centered Learner-centered Contextual answer is incorrect. 0 Answers: the ability to collectively develop and implement innovative actions that further sustainability at the local level and furthera Managerial competency Strategic competency Marketing competency Environmental competency answer is incorrect. 0 Answers: competency looks at pi pective as sustainability issues are linked and part of a whole. technical thinking creative thinking critical thinking systems thinking answer is incorrect. 0 Answers: thinking ability to understand and reflect on the norms and values that underlie one's actions and to inability values, p i . goals 7 point in a context of conflicts of interests is called - anticipatory competency normative competency problem solving competency self-awareness competency answer is incorrect. 0 Answers: competency learning, learners engage in action and reflect on their experiences in relation to the intended learning process and development. time-oriented focus-oriented action-oriented context-oriented answer is incorrect. 0 Answers: reviewer? @nptel.jitm.ac.in + Ani incements Aboutthe Course AskaQuestion Progress Mentor Review Assignme:",
-        "options": [],
+        "question": "\u2014\u2014\u2014\u2014 is a policy support mechanisms of Okayama Project.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Networking/partnership"
+          },
+          {
+            "id": "B",
+            "text": "Outsourcing"
+          },
+          {
+            "id": "C",
+            "text": "Techno savvy people"
+          },
+          {
+            "id": "D",
+            "text": "Financial allocation"
+          }
+        ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": ": Assignment 9 due date for submitting this assignment has passed. Due on 2022-03-30, 23:59 IST. per our records you have not submitted this assignment.",
-        "options": [],
-        "answer_id": "A",
+        "question": "\u2014\u2014\u2014\u2014 aims to empower learners to question and change their ways of seeing and thinking about the world, in order to further develop their understanding.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Experiential Learning"
+          },
+          {
+            "id": "B",
+            "text": "Peer-to-Peer Learning"
+          },
+          {
+            "id": "C",
+            "text": "Individualized Learning"
+          },
+          {
+            "id": "D",
+            "text": "Transformative learning"
+          }
+        ],
+        "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "--- is defined as the ability to stay present to your internal environment at the same time as engaging with your external",
+        "question": "\u2014\u2014\u2014\u2014 pedagogy sees students as autonomous learners and emphasizes the active development of knowledge.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Curriculum-centered"
+          },
+          {
+            "id": "B",
+            "text": "Teacher-centered"
+          },
+          {
+            "id": "C",
+            "text": "Learner-centered"
+          },
+          {
+            "id": "D",
+            "text": "Contextual"
+          }
+        ],
+        "answer_id": "C",
+        "explanation": ""
+      },
+      {
+        "question": "\u2014\u2014\u2014\u2014 the ability to collectively develop and implement innovative actions that further sustainability at the local level and further a field.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Managerial competency"
+          },
+          {
+            "id": "B",
+            "text": "Strategic competency"
+          },
+          {
+            "id": "C",
+            "text": "Marketing competency"
+          },
+          {
+            "id": "D",
+            "text": "Environmental competency"
+          }
+        ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "A \u2014\u2014\u2014\u2014 approach looks at problems in a holistic perspective as sustainability issues are linked and part of a whole.",
+        "options": [
+          {
+            "id": "A",
+            "text": "technical thinking"
+          },
+          {
+            "id": "B",
+            "text": "creative thinking"
+          },
+          {
+            "id": "C",
+            "text": "critical thinking"
+          },
+          {
+            "id": "D",
+            "text": "systems thinking"
+          }
+        ],
+        "answer_id": "D",
+        "explanation": ""
+      },
+      {
+        "question": "The ability to understand and reflect on the norms and values that underlie one's actions and to negotiate sustainability values, principles, goals and targets, in a context of conflicts of interests is called \u2014\u2014\u2014\u2014.",
+        "options": [
+          {
+            "id": "A",
+            "text": "anticipatory competency"
+          },
+          {
+            "id": "B",
+            "text": "normative competency"
+          },
+          {
+            "id": "C",
+            "text": "problem solving competency"
+          },
+          {
+            "id": "D",
+            "text": "self-awareness competency"
+          }
+        ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "In \u2014\u2014\u2014\u2014 learning, learners engage in action and reflect on their experiences in relation to the intended learning process and personal development.",
+        "options": [
+          {
+            "id": "A",
+            "text": "time-oriented"
+          },
+          {
+            "id": "B",
+            "text": "focus-oriented"
+          },
+          {
+            "id": "C",
+            "text": "action-oriented"
+          },
+          {
+            "id": "D",
+            "text": "context-oriented"
+          }
+        ],
+        "answer_id": "C",
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "questions": [
+      {
+        "question": "\u2014\u2014\u2014\u2014 is defined as the ability to stay present to your internal environment at the same time as engaging with your external environment.",
         "options": [
           {
             "id": "A",
@@ -1518,7 +1928,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "With respect to SDG 4.7 collaboration, mediation, team work and empathy come under ~ ---competencies.",
+        "question": "With respect to SDG 4.7 collaboration, mediation, team work and empathy come under \u2014\u2014\u2014\u2014 competencies.",
         "options": [
           {
             "id": "A",
@@ -1541,7 +1951,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "a. ... iS ability to work with Feedback loops, systems and sub-systems, buffers and multiple variable, nested scales, and tipping points.",
+        "question": "\u2014\u2014\u2014\u2014 is ability to work with Feedback loops, systems and sub-systems, buffers and multiple variable, nested scales, resilience, and tipping points.",
         "options": [
           {
             "id": "A",
@@ -1564,7 +1974,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "The idea of fion implies changes in indi ial action intertwined with reorganization of societal structures.",
+        "question": "The idea of \u2014\u2014\u2014\u2014 transformation implies changes in individual action intertwined with reorganization of societal structures.",
         "options": [
           {
             "id": "A",
@@ -1587,7 +1997,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "\u2014 -- is not a step of Mezirow\u2019s theory of Transformative learning theory.",
+        "question": "\u2014\u2014\u2014\u2014 is NOT a step of Mezirow's theory of Transformative learning theory.",
         "options": [
           {
             "id": "A",
@@ -1610,46 +2020,53 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Through-- ----- people influence and share control over development initiatives, decisions and resources that affect them.",
+        "question": "Through \u2014\u2014\u2014\u2014 people influence and share control over development initiatives, decisions and resources that affect them.",
         "options": [
           {
             "id": "A",
-            "text": "Political strategies 8. Participatory Sustainable Development . Private industries\u2019 intervention"
+            "text": "Political strategies"
+          },
+          {
+            "id": "B",
+            "text": "Participatory Sustainable Development"
+          },
+          {
+            "id": "C",
+            "text": "Private industries' intervention"
           },
           {
             "id": "D",
             "text": "Social work agencies"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "B",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 8,
-    "questions": [
+      },
       {
-        "question": "According to NEP 2020 -- ~ wauld be the new school structure.",
+        "question": "According to NEP 2020 \u2014\u2014\u2014\u2014 would be the new school structure.",
         "options": [
           {
             "id": "A",
-            "text": "5434344"
+            "text": "5+3+3+4"
           },
           {
             "id": "B",
-            "text": "4434345 GC. 3434445"
+            "text": "4+3+3+5"
+          },
+          {
+            "id": "C",
+            "text": "5+3+4+5"
           },
           {
             "id": "D",
-            "text": "4454343,"
+            "text": "4+5+3+3"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "Inthe recent years, -\u2014 \u2014-has become a slogan for raising social, economic and environmental awareness.",
+        "question": "In the recent years, \u2014\u2014\u2014\u2014 has become a slogan for raising social, economic and environmental awareness.",
         "options": [
           {
             "id": "A",
@@ -1672,7 +2089,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "is considered as primary goal of SDG4.",
+        "question": "\u2014\u2014\u2014\u2014 is considered as primary goal of SDG4.",
         "options": [
           {
             "id": "A",
@@ -1695,7 +2112,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "\u2014 --- will be established as a common regulatory body for whole higher education in India, excluding medical and legal pedagogy.",
+        "question": "\u2014\u2014\u2014\u2014 will be established as a common regulatory body for whole higher education in India, excluding medical and legal pedagogy.",
         "options": [
           {
             "id": "A",
@@ -1711,25 +2128,24 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "HEC!"
-          },
-          {
-            "id": "D",
-            "text": "HECI Answers: reviewer? @nptel.jitm.ac.in + incaments Aboutthe Course Aska Question Progress Mentor Review Assignme:"
+            "text": "HECI"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "D",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "questions": [
       {
-        "question": ": Assignment 10 due date for submitting this assignment has passed. Due on 2022-04-06, 23:59 IST. per our records you have not submitted this assignment.",
-        "options": [],
-        "answer_id": "A",
-        "explanation": ""
-      },
-      {
-        "question": "look beyond short-term gains to see the role their organization plays in a larger context. A, Political leaders",
+        "question": "\u2014\u2014\u2014\u2014 look beyond immediate, short-term gains to see the role their organization plays in a larger context.",
         "options": [
+          {
+            "id": "A",
+            "text": "Political leaders"
+          },
           {
             "id": "B",
             "text": "Sustainable leaders"
@@ -1747,7 +2163,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "- important for those at the top to embrace sustainable leadership.",
+        "question": "\u2014\u2014\u2014\u2014 is important for those at the top to embrace sustainable leadership.",
         "options": [
           {
             "id": "A",
@@ -1755,22 +2171,22 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "Three P's - people, planet and profit"
+            "text": "Three P's \u2013 people, planet and profit"
           },
           {
             "id": "C",
-            "text": "MNCs"
+            "text": "MNOs"
           },
           {
             "id": "D",
             "text": "Governance"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "B",
         "explanation": ""
       },
       {
-        "question": "Understanding and Working with Paradox, Ambiguity and Conflict is the \u2014 -- of Sustainable leaders.",
+        "question": "Understanding and Working with Paradox, Ambiguity and Conflict is the \u2014\u2014\u2014\u2014 of Sustainable leaders.",
         "options": [
           {
             "id": "A",
@@ -1782,22 +2198,26 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "nitiide:"
+            "text": "attitude"
           },
           {
             "id": "D",
-            "text": "practice Ca"
+            "text": "practice"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "Displaying an unprejudiced attitude toward new ideas and the beliefs of other is called",
+        "question": "Displaying an unprejudiced attitude toward new ideas and the beliefs of other stakeholders is called \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "Open-mindedness B, Stereotypes"
+            "text": "Open-mindedness"
+          },
+          {
+            "id": "B",
+            "text": "Stereotypes"
           },
           {
             "id": "C",
@@ -1805,14 +2225,14 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "Judgment No, Score: the 0 answer is incorrect."
+            "text": "Judgment"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "One who chooses to engage in the process of creating transformative change with others aimed toward a sustainable future is known as ~",
+        "question": "One who chooses to engage in the process of creating transformative change with others aimed toward a sustainable future is known as \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1833,14 +2253,9 @@ const weekData2022 = [
         ],
         "answer_id": "B",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 9,
-    "questions": [
+      },
       {
-        "question": "i Energy and isa of leaders.",
+        "question": "Sustaining Energy and Momentum is a \u2014\u2014\u2014\u2014 of leaders.",
         "options": [
           {
             "id": "A",
@@ -1863,8 +2278,12 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Principles of Leadership is a A, shared responsibility",
+        "question": "Principles of Sustainable Leadership is a \u2014\u2014\u2014\u2014.",
         "options": [
+          {
+            "id": "A",
+            "text": "shared responsibility"
+          },
           {
             "id": "B",
             "text": "activist engagement"
@@ -1886,7 +2305,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Sustainable leadership provides .. that attract and retain the best and brightest of the leadership pool.",
+        "question": "Sustainable leadership provides \u2014\u2014\u2014\u2014 that attract and retain the best and brightest of the leadership pool.",
         "options": [
           {
             "id": "A",
@@ -1909,8 +2328,12 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Maintaining a trimmed management system is the principle of ... A Supply chain management",
+        "question": "Maintaining a trimmed management system is the principle of \u2014\u2014\u2014\u2014.",
         "options": [
+          {
+            "id": "A",
+            "text": "Supply chain management"
+          },
           {
             "id": "B",
             "text": "Consumer behavior"
@@ -1928,7 +2351,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "In Sustainable leadership the key performance drivers are...",
+        "question": "In Sustainable leadership the key performance drivers are \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1949,9 +2372,14 @@ const weekData2022 = [
         ],
         "answer_id": "D",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "questions": [
       {
-        "question": "Manage complexity ; and a is",
+        "question": "Manage complexity and unpredictability is \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1959,7 +2387,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "skill CC. wisdom"
+            "text": "skill"
+          },
+          {
+            "id": "C",
+            "text": "wisdom"
           },
           {
             "id": "D",
@@ -1970,7 +2402,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "External Leadership actions is/are",
+        "question": "External Leadership actions is/are \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -1997,26 +2429,34 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "inable leader is/are.",
+        "question": "Sustainable leader competencies is/are \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "sustainable mindset"
+            "text": "a sustainable mindset"
           },
           {
             "id": "B",
-            "text": "system thinking interatn cairn"
+            "text": "system thinking"
+          },
+          {
+            "id": "C",
+            "text": "relationship building"
           },
           {
             "id": "D",
-            "text": "logical strategies E alte above No, Score: the 0 answer is incorrect."
+            "text": "logical strategies"
+          },
+          {
+            "id": "E",
+            "text": "all the above"
           }
         ],
         "answer_id": "E",
         "explanation": ""
       },
       {
-        "question": "is the core values at Lead India leadership program.",
+        "question": "\u2014\u2014\u2014\u2014 is the core values at Lead India leadership program.",
         "options": [
           {
             "id": "A",
@@ -2028,7 +2468,7 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "Building-empathy Hest Benth esa}"
+            "text": "Building-empathy"
           },
           {
             "id": "D",
@@ -2039,11 +2479,15 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "uuu. had transformed the world into a short village.",
+        "question": "\u2014\u2014\u2014\u2014 had transformed the world into a short village.",
         "options": [
           {
             "id": "A",
-            "text": "Nationalization 8. Globalization"
+            "text": "Nationalization"
+          },
+          {
+            "id": "B",
+            "text": "Globalization"
           },
           {
             "id": "C",
@@ -2058,16 +2502,34 @@ const weekData2022 = [
             "text": "Regional cooperation"
           }
         ],
+        "answer_id": "B",
+        "explanation": ""
+      },
+      {
+        "question": "\u2014\u2014\u2014\u2014 leadership serves to enhance the motivation, morale, and job performance of followers through a variety of mechanisms.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Servant"
+          },
+          {
+            "id": "B",
+            "text": "Democratic"
+          },
+          {
+            "id": "C",
+            "text": "Task-oriented"
+          },
+          {
+            "id": "D",
+            "text": "Transformational"
+          }
+        ],
         "answer_id": "D",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 10,
-    "questions": [
+      },
       {
-        "question": "Sustainable ... .--sssssOnsiders how to minimize inputs like energy, water, and food, as well as how to reduce waste outputs of heat, air pollution, and water pollution.",
+        "question": "Sustainable \u2014\u2014\u2014\u2014 considers how to minimize inputs like energy, water, and food, as well as how to reduce waste outputs of heat, air pollution, and water pollution.",
         "options": [
           {
             "id": "A",
@@ -2094,7 +2556,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Ce are",
+        "question": "Sustainable Communities are \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -2110,18 +2572,22 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "all the above No, Score: the 0 answer is incorrect."
+            "text": "all of the above"
           }
         ],
         "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "Gommen urban challenges include . due to lack of funds and poor infrastructure.",
+        "question": "Common urban challenges include \u2014\u2014\u2014\u2014 due to lack of funds and poor infrastructure.",
         "options": [
           {
             "id": "A",
-            "text": "congestion B, advantages"
+            "text": "congestion"
+          },
+          {
+            "id": "B",
+            "text": "advantages"
           },
           {
             "id": "C",
@@ -2136,40 +2602,43 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Climate change impact causes.",
+        "question": "Climate change impact causes \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "changing temperature pattern"
+            "text": "a changing temperature pattern"
           },
           {
             "id": "B",
-            "text": "irregular rainfall G. sea level rise"
+            "text": "irregular rainfall"
+          },
+          {
+            "id": "C",
+            "text": "sea level rise"
           },
           {
             "id": "D",
-            "text": "natural disasters,"
+            "text": "natural disasters"
           },
           {
             "id": "E",
-            "text": "all the above."
+            "text": "all the above"
           }
         ],
         "answer_id": "E",
         "explanation": ""
-      },
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "questions": [
       {
-        "question": ". Assignment 12 due date for submitting this assignment has passed. Due on 2022-04-20, 23:59 IST. per our records you have not submitted this assignment.",
-        "options": [],
-        "answer_id": "A",
-        "explanation": ""
-      },
-      {
-        "question": "\u2014 --- an autonomous agency serves as an advisory role to the Government and State Pollution Control Boards",
+        "question": "\u2014\u2014\u2014\u2014 an autonomous agency serves as an advisory role to the Government and State Pollution Control Boards.",
         "options": [
           {
             "id": "A",
-            "text": "GPOB"
+            "text": "CPCB"
           },
           {
             "id": "B",
@@ -2177,7 +2646,7 @@ const weekData2022 = [
           },
           {
             "id": "C",
-            "text": "WRPCR"
+            "text": "WBPCB"
           },
           {
             "id": "D",
@@ -2204,30 +2673,42 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "Solid Waste No, Score: the 0 answer is incorrect."
+            "text": "Solid Waste"
           }
         ],
         "answer_id": "A",
         "explanation": ""
       },
       {
-        "question": "Which SDG relates to i ion and ion?",
+        "question": "Which SDG relates to responsible consumption and production?",
         "options": [
           {
             "id": "A",
-            "text": "SDGB Ebel"
+            "text": "SDG 8"
+          },
+          {
+            "id": "B",
+            "text": "SDG 17"
           },
           {
             "id": "C",
-            "text": "SDG 13 D)S0@12 aan, cepted is Answers: aie"
+            "text": "SDG 13"
+          },
+          {
+            "id": "D",
+            "text": "SDG 12"
           }
         ],
-        "answer_id": "A",
+        "answer_id": "D",
         "explanation": ""
       },
       {
-        "question": "need to be made p lifestyles in it lized societies. A comenrtiontnclione",
+        "question": "\u2014\u2014\u2014\u2014 need to be made sustainable, particularly lifestyles in industrialized societies.",
         "options": [
+          {
+            "id": "A",
+            "text": "Consumption patterns"
+          },
           {
             "id": "B",
             "text": "Communicative learning"
@@ -2238,7 +2719,7 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "Nane of the above"
+            "text": "None of the above"
           }
         ],
         "answer_id": "A",
@@ -2261,19 +2742,37 @@ const weekData2022 = [
           },
           {
             "id": "D",
-            "text": "SDG 12 No, Score: the 0 answer is incorrect."
+            "text": "SDG 12"
+          }
+        ],
+        "answer_id": "A",
+        "explanation": ""
+      },
+      {
+        "question": "A successful sustainable development agenda requires partnerships between \u2014\u2014\u2014\u2014.",
+        "options": [
+          {
+            "id": "A",
+            "text": "governments"
+          },
+          {
+            "id": "B",
+            "text": "the private sector"
+          },
+          {
+            "id": "C",
+            "text": "civil society"
+          },
+          {
+            "id": "D",
+            "text": "all the above"
           }
         ],
         "answer_id": "D",
         "explanation": ""
-      }
-    ]
-  },
-  {
-    "week": 11,
-    "questions": [
+      },
       {
-        "question": "| want to save time and labour not for a fraction of mankind but for all. | want the concentration of wealth not in the hands of a few to ride on the of millions but in the hands of all. This statement is given by .",
+        "question": "'I want to save time and labour not for a fraction of mankind but for all. I want the concentration of wealth not in the hands of a few to ride on the back of millions but in the hands of all.' This statement is given by \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -2296,7 +2795,7 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Triple bottom-line drivers of i i",
+        "question": "Triple bottom-line drivers of sustainable development is \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
@@ -2304,11 +2803,11 @@ const weekData2022 = [
           },
           {
             "id": "B",
-            "text": "sacial, political and ecological"
+            "text": "social, political and ecological"
           },
           {
             "id": "C",
-            "text": "economic, technological innovation,"
+            "text": "economic, technological innovation"
           },
           {
             "id": "D",
@@ -2319,15 +2818,15 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "Gandhi has the for of water, sanitation and hygiene in a sustainable way. It comes under.",
+        "question": "Gandhi has persuaded the communities for management of water, sanitation and hygiene in a sustainable way. It comes under \u2014\u2014\u2014\u2014.",
         "options": [
           {
             "id": "A",
-            "text": "SDG7"
+            "text": "SDG 7"
           },
           {
             "id": "B",
-            "text": "SDG 16"
+            "text": "SDG 18"
           },
           {
             "id": "C",
@@ -2342,11 +2841,19 @@ const weekData2022 = [
         "explanation": ""
       },
       {
-        "question": "plays a part in many aspects of human activity. ACT",
+        "question": "\u2014\u2014\u2014\u2014 plays a part in many aspects of human activity.",
         "options": [
           {
+            "id": "A",
+            "text": "ICT"
+          },
+          {
             "id": "B",
-            "text": "MNT c.LitT"
+            "text": "MNT"
+          },
+          {
+            "id": "C",
+            "text": "LIT"
           },
           {
             "id": "D",
